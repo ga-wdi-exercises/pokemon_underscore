@@ -2,15 +2,21 @@
 
 ### Overview
 
-Tired of writing for loops and wish you had all the awesome semantic enumerators that we had in Ruby? You can with [underscore.js!](http://underscorejs.org/)
+The goal of this exercise is to get an introduction to Underscore.js.
 
-The goal of this morning's exercise is to get an introduction to a helpful library. Underscore.js also happens to be a dependency for Backbone.js, so we wanted to give you guys an opportunity to play with it first.
+**Instructions:**
 
-Your job is to fill in each of the functions stubbed out in the `pokemon.js` file so that they work. I've written Jasmine Tests for each of them besides "printAllPokemonNamesToConsole", which you will just have to check manually. For the others, go through the underscore.js docs and write the code that makes the tests pass. 
+Your job is to fill in each of the functions stubbed out in the `pokemon.js` file so that they work. I've written Jasmine Tests for each of them besides "printAllPokemonNamesToConsole", which you will just have to check manually.
+
+For the others, go through the underscore.js docs and write the code that makes the tests pass.
+
+To check if the tests have passed, open up SpecRunner.html in your browser.
+
+[underscore.js!](http://underscorejs.org/)
 
 #### Notes
-* I've namespaced all of the functions to `pokemon`
-* I've put the JSON of the pokemon data in the `src/data.js` file.
+* I've namespaced all of the functions to `pokemon` aka they are encapsulated in a `pokemon` object in `src/pokemon.js`.
+* I've put all of the pokemon data in `src/data.js` file. You do not need to modify anything in this file!
 * You shouldn't have to use any "for" loops.
 
 ### Bonus 1
